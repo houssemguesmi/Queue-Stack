@@ -4,7 +4,6 @@ class Queue {
     this.rear = 0;
     this.storage = {};
   }
-
   enqueue(value) {
     if (this.rear === 0) {
       this.storage[this.front] = value;
