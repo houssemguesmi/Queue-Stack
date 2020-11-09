@@ -21,10 +21,6 @@ class Stack {
     }
   }
   size() {
-    if (this.top === 0) {
-      return 0;
-    } else {
-      return this.top;
-    }
+    return this.top;
   }
 }

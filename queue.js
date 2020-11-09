@@ -24,10 +24,6 @@ class Queue {
     }
   }
   size() {
-    if (this.rear === 0) {
-      return 0;
-    } else {
-      return this.rear;
-    }
+    return this.rear;
   }
 }
